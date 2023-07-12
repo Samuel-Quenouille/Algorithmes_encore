@@ -3,7 +3,7 @@ const array1 = [3, 7, 8, 3, 6, 1]
 const array2 = [1, 4, 5, 8]
 
 function countBuilding(array) {
-    let count = 0
+    let count = 0;
 
     for (let i = 0; i < array.length; i++) {
         let sunsetView = true;

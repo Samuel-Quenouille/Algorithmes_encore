@@ -6,6 +6,7 @@ const k2 = 19
 
 function Sum(array, k) {
     const numbers = new Set();
+    
     for (let i = 0; i < array.length; i++) {
         const complement = k - array[i];
 
@@ -20,3 +21,4 @@ function Sum(array, k) {
 
 console.log(Sum(array1, k1));
 console.log(Sum(array2, k2));
+
