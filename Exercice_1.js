@@ -19,6 +19,3 @@ function Sum(array, k) {
 console.log(Sum(array1, k1));
 console.log(Sum(array2, k2));
 
-// Ligne 8 : initialise une variable i à 0 et crée une boucle qui s'exécutera tant que i est inférieur à la longueur du tableau array.
-// Ligne 9 : initialise une variable j à i + 1 (le prochain élément après i) et crée une boucle interne qui s'exécutera tant que j est inférieur à la longueur du tableau array. Cela permet d'éviter de vérifier les paires déjà vérifiées dans les itérations précédentes.
-
